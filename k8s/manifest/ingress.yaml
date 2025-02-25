@@ -16,4 +16,4 @@ spec:
           service:
             name: go-app-with-devops
             port:
-              number: 8080
+              number: 90
