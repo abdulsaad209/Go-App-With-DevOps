@@ -20,6 +20,8 @@ COPY --from=base /app/main .
 
 COPY --from=base /app/static ./static
 
+COPY --from=base /app/templates ./templates 
+
 EXPOSE 90
 
 CMD ["./main"]
